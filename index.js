@@ -37,4 +37,4 @@ function outerFunction() {
 }
 
 var myScope = outerFunction();
-console.log(myScope)
+myScope()
