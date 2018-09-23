@@ -24,17 +24,3 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction()
 theFunk = theFunk()
-
-
-function outerFunction() {
-  var innerVariable = "I'm sort of a secret.";
-
-  return function innerScope() {
-    var inaccessible = "Nothing can touch me.";
-
-    return innerVariable;
-  }
-}
-
-var myScope = outerFunction();
-myScope
